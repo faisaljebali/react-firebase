@@ -1,38 +1,120 @@
-.App {
+
+.container {
+  max-width: 1250px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.site-layout-content {
+  background: #fff;
+  padding: 24px;
+  margin-top: 30px !important;
+}
+.layout .logo {
+  width: 120px;
+  height: 31px;
+  background: rgba(255, 255, 255, 0.2);
+  margin: 16px 24px 16px 0;
+  float: left;
+}
+main {
+  height: calc(100vh - 135px);
+}
+.text-right{
+  text-align: right;
+}
+.ant-dropdown-menu {
+  margin-top: 19px !important;
+}
+.form_center {
+  max-width: 400px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.ant-input {
+  padding: 7px 11px !important;
+}
+.ant-input-affix-wrapper {
+  padding: 0 ;
+}
+span.ant-input-suffix {
+  display: none;
+}
+.google-signup{
+  background-color: #eb4134;
+  padding: 8px 5px;
+  color: #fff;
+  width: 100%;
+  border: 0;
+  cursor: pointer;
+}
+.ant-form-item-control-input {
+  margin-bottom: 2px;
+  margin-top: 2px;
+}
+
+.hr-div {
+  width: 100%;
+  border-top: 1px solid #bfb4b0;
+  position: relative;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+.hr-text {
+  position: absolute;
+  left: 0;
   text-align: center;
+  right: 0;
+  background-color: white;
+  width: 100%;
+  margin: 0 auto;
+  max-width: 35px;
+  top: -13px;
+  font-size: 15px;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.mt-20{
+  margin-top: 20px;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.flex-remember {
   display: flex;
-  flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  justify-content: space-between;
 }
 
-.App-link {
-  color: #61dafb;
+.resetpassword-login {
+  position: relative;
+  top: -14px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.danger-error-false {
+  background: #13d021;
+  color: #fff;
+}
+.danger-error-true {
+  background: #d04713;
+  color: #fff;
+}
+.ant-notification-notice .ant-notification-notice-message {
+  color: rgb(255, 255, 255);
+}
+.ant-notification-notice svg {
+  fill: #fff;
+}
+.ant-layout {
+  background: #ffffff;
+}
+.ant-layout-footer {
+  background: #f7f7f7;
+}
+.ant-layout-header {
+  background: #0e80ec;
+}
+.ant-menu.ant-menu-dark, .ant-menu-dark .ant-menu-sub {
+  background: #0e80ec;
+}
+.flex-menu {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
